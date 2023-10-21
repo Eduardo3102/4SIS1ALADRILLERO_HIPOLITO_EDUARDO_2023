@@ -1,12 +1,19 @@
 public class Principal {
-
+    
     public static void main(String[] args){
-        //hago la estancia
-        michi gato = new michi("bolita","de la calle","croquetas bb","1","7");
-    
+        Michi gato = new Michi("bolita","de la calle","croquetas bebes", 1, 7);
+        gato.mostrarMichi();
 
-        //lo muestro
-        gato.mostrarmichi();
+        Perrito perro = new Perrito("Come Kroketas","Espacial","croquetas raza mediana", 2, 1);
+        perro.mostrarPerrito();
+
+        Conejito conejo = new Conejito("El Verduras","de Bugs Bunny","De todo un poco", 3, 7);
+        conejo.mostrarConejito();
+
+        Hamnster cuyo = new Hamnster("Hamntaro","Ruedor","Cemillas y Croquetas", 1, 1);
+        cuyo.mostrarHamnster();
+
+        Capibara ruedor = new Capibara("Capitan Chido","Ruedor Gigante","Especializado", 4, 2);
+        ruedor.mostrarCapibara();
     }
-    
 }
